@@ -1,0 +1,212 @@
+816:C 25 Oct 20:43:02.386 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+816:C 25 Oct 20:43:02.392 # Redis version=4.0.9, bits=64, commit=00000000, modified=0, pid=816, just started
+816:C 25 Oct 20:43:02.392 # Configuration loaded
+817:M 25 Oct 20:43:02.396 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+817:M 25 Oct 20:43:02.401 # Server can't set maximum open files to 10032 because of OS error: Invalid argument.
+817:M 25 Oct 20:43:02.401 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+817:M 25 Oct 20:43:02.405 * No cluster configuration found, I'm 8d76926341fe930d8d288170056f179caa30d583
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 4.0.9 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in cluster mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6479
+ |    `-._   `._    /     _.-'    |     PID: 817
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+817:M 25 Oct 20:43:02.409 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+817:M 25 Oct 20:43:02.409 # Server initialized
+817:M 25 Oct 20:43:02.409 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+817:M 25 Oct 20:43:02.410 * DB loaded from disk: 0.000 seconds
+817:M 25 Oct 20:43:02.410 # I have keys for unassigned slot 449. Taking responsibility for it.
+817:M 25 Oct 20:43:02.410 # I have keys for unassigned slot 4576. Taking responsibility for it.
+817:M 25 Oct 20:43:02.411 # I have keys for unassigned slot 5798. Taking responsibility for it.
+817:M 25 Oct 20:43:02.411 # I have keys for unassigned slot 7568. Taking responsibility for it.
+817:M 25 Oct 20:43:02.411 # I have keys for unassigned slot 8455. Taking responsibility for it.
+817:M 25 Oct 20:43:02.411 # I have keys for unassigned slot 12706. Taking responsibility for it.
+817:M 25 Oct 20:43:02.414 * Ready to accept connections
+817:M 25 Oct 20:45:47.134 # IP address for this node updated to 127.0.0.1
+817:M 25 Oct 20:45:47.686 # Configuration change detected. Reconfiguring myself as a replica of 35fe6568c2d2ba537b6641023f33ae62f4bb1bec
+817:S 25 Oct 20:45:47.686 * Before turning into a slave, using my master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+817:S 25 Oct 20:45:47.786 * Connecting to MASTER 127.0.0.1:6380
+817:S 25 Oct 20:45:47.789 * MASTER <-> SLAVE sync started
+817:S 25 Oct 20:45:47.792 * Non blocking connect for SYNC fired the event.
+817:S 25 Oct 20:45:47.795 * Master replied to PING, replication can continue...
+817:S 25 Oct 20:45:47.798 * Trying a partial resynchronization (request 6a71ffe2a563b77325d31d8a6183d09afac9aeff:1).
+817:S 25 Oct 20:45:47.803 * Full resync from master: 7f9a7c93c8f915bc19ea7390f837f876a88ce5a9:0
+817:S 25 Oct 20:45:47.804 * Discarding previously cached master state.
+817:S 25 Oct 20:45:47.872 * MASTER <-> SLAVE sync: receiving 233 bytes from master
+817:S 25 Oct 20:45:47.878 * MASTER <-> SLAVE sync: Flushing old data
+817:S 25 Oct 20:45:47.879 * MASTER <-> SLAVE sync: Loading DB in memory
+817:S 25 Oct 20:45:47.879 * MASTER <-> SLAVE sync: Finished with success
+861:C 25 Oct 20:54:11.254 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+861:C 25 Oct 20:54:11.259 # Redis version=4.0.9, bits=64, commit=00000000, modified=0, pid=861, just started
+861:C 25 Oct 20:54:11.260 # Configuration loaded
+862:M 25 Oct 20:54:11.263 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+862:M 25 Oct 20:54:11.268 # Server can't set maximum open files to 10032 because of OS error: Invalid argument.
+862:M 25 Oct 20:54:11.268 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+862:M 25 Oct 20:54:11.270 * Node configuration loaded, I'm 8d76926341fe930d8d288170056f179caa30d583
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 4.0.9 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in cluster mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6479
+ |    `-._   `._    /     _.-'    |     PID: 862
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+862:M 25 Oct 20:54:11.272 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+862:M 25 Oct 20:54:11.272 # Server initialized
+862:M 25 Oct 20:54:11.272 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+862:M 25 Oct 20:54:11.273 * Ready to accept connections
+862:S 25 Oct 20:54:11.275 * Before turning into a slave, using my master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+862:S 25 Oct 20:54:12.284 * Connecting to MASTER 127.0.0.1:6380
+862:S 25 Oct 20:54:12.286 * MASTER <-> SLAVE sync started
+862:S 25 Oct 20:54:12.287 * Non blocking connect for SYNC fired the event.
+862:S 25 Oct 20:54:12.288 * Master replied to PING, replication can continue...
+862:S 25 Oct 20:54:12.290 * Trying a partial resynchronization (request 2c8916cadfec4778536d0a5ae09758f27831fe68:1).
+862:S 25 Oct 20:54:12.297 * Full resync from master: 7f9a7c93c8f915bc19ea7390f837f876a88ce5a9:700
+862:S 25 Oct 20:54:12.298 * Discarding previously cached master state.
+862:S 25 Oct 20:54:12.343 * MASTER <-> SLAVE sync: receiving 234 bytes from master
+862:S 25 Oct 20:54:12.346 * MASTER <-> SLAVE sync: Flushing old data
+862:S 25 Oct 20:54:12.346 * MASTER <-> SLAVE sync: Loading DB in memory
+862:S 25 Oct 20:54:12.347 * MASTER <-> SLAVE sync: Finished with success
+862:S 25 Oct 20:54:26.331 * Marking node 7858ebe514c1857e462f5a2dd0d1515e949649b5 as failing (quorum reached).
+868:C 25 Oct 20:55:30.898 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+868:C 25 Oct 20:55:30.906 # Redis version=4.0.9, bits=64, commit=00000000, modified=0, pid=868, just started
+868:C 25 Oct 20:55:30.907 # Configuration loaded
+869:M 25 Oct 20:55:30.910 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+869:M 25 Oct 20:55:30.916 # Server can't set maximum open files to 10032 because of OS error: Invalid argument.
+869:M 25 Oct 20:55:30.916 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+869:M 25 Oct 20:55:30.918 # Sorry, the cluster configuration file nodes-6479.conf is already used by a different Redis Cluster node. Please make sure that different nodes use different cluster configuration files.
+862:signal-handler (1603630762) Received SIGTERM scheduling shutdown...
+862:S 25 Oct 20:59:22.642 # User requested shutdown...
+862:S 25 Oct 20:59:22.642 * Saving the final RDB snapshot before exiting.
+862:S 25 Oct 20:59:22.653 * DB saved on disk
+862:S 25 Oct 20:59:22.653 * Removing the pid file.
+862:S 25 Oct 20:59:22.654 # Redis is now ready to exit, bye bye...
+893:C 25 Oct 20:59:56.326 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+893:C 25 Oct 20:59:56.335 # Redis version=4.0.9, bits=64, commit=00000000, modified=0, pid=893, just started
+893:C 25 Oct 20:59:56.335 # Configuration loaded
+894:M 25 Oct 20:59:56.339 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+894:M 25 Oct 20:59:56.340 # Server can't set maximum open files to 10032 because of OS error: Invalid argument.
+894:M 25 Oct 20:59:56.340 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+894:M 25 Oct 20:59:56.342 * Node configuration loaded, I'm 8d76926341fe930d8d288170056f179caa30d583
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 4.0.9 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in cluster mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6479
+ |    `-._   `._    /     _.-'    |     PID: 894
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+894:M 25 Oct 20:59:56.344 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+894:M 25 Oct 20:59:56.344 # Server initialized
+894:M 25 Oct 20:59:56.344 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+894:M 25 Oct 20:59:56.345 * DB loaded from disk: 0.000 seconds
+894:M 25 Oct 20:59:56.345 * Ready to accept connections
+894:S 25 Oct 20:59:56.347 * Before turning into a slave, using my master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+894:S 25 Oct 20:59:56.348 * Clear FAIL state for node 7858ebe514c1857e462f5a2dd0d1515e949649b5: slave is reachable again.
+894:S 25 Oct 20:59:57.356 * Connecting to MASTER 127.0.0.1:6380
+894:S 25 Oct 20:59:57.359 * MASTER <-> SLAVE sync started
+894:S 25 Oct 20:59:57.360 * Non blocking connect for SYNC fired the event.
+894:S 25 Oct 20:59:57.361 * Master replied to PING, replication can continue...
+894:S 25 Oct 20:59:57.362 * Trying a partial resynchronization (request ad6f7c3866f621af2719b13d47bfab3a2c095ca9:1).
+894:S 25 Oct 20:59:57.366 * Full resync from master: bdd96600ff6857cf348807a59b11c56f24e5784b:0
+894:S 25 Oct 20:59:57.367 * Discarding previously cached master state.
+894:S 25 Oct 20:59:57.435 * MASTER <-> SLAVE sync: receiving 233 bytes from master
+894:S 25 Oct 20:59:57.442 * MASTER <-> SLAVE sync: Flushing old data
+894:S 25 Oct 20:59:57.442 * MASTER <-> SLAVE sync: Loading DB in memory
+894:S 25 Oct 20:59:57.443 * MASTER <-> SLAVE sync: Finished with success
+894:signal-handler (1603630858) Received SIGTERM scheduling shutdown...
+894:S 25 Oct 21:00:58.626 # Connection with master lost.
+894:S 25 Oct 21:00:58.627 * Caching the disconnected master state.
+894:S 25 Oct 21:00:58.663 # User requested shutdown...
+894:S 25 Oct 21:00:58.664 * Saving the final RDB snapshot before exiting.
+894:S 25 Oct 21:00:58.689 * DB saved on disk
+894:S 25 Oct 21:00:58.690 * Removing the pid file.
+894:S 25 Oct 21:00:58.690 # Redis is now ready to exit, bye bye...
+937:C 25 Oct 21:02:19.932 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+937:C 25 Oct 21:02:19.937 # Redis version=4.0.9, bits=64, commit=00000000, modified=0, pid=937, just started
+937:C 25 Oct 21:02:19.937 # Configuration loaded
+938:M 25 Oct 21:02:19.940 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+938:M 25 Oct 21:02:19.946 # Server can't set maximum open files to 10032 because of OS error: Invalid argument.
+938:M 25 Oct 21:02:19.946 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+938:M 25 Oct 21:02:19.948 * No cluster configuration found, I'm 46c293e0eb775121e7cc837e5448a51347d9b674
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 4.0.9 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in cluster mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6479
+ |    `-._   `._    /     _.-'    |     PID: 938
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+938:M 25 Oct 21:02:19.956 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+938:M 25 Oct 21:02:19.957 # Server initialized
+938:M 25 Oct 21:02:19.957 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+938:M 25 Oct 21:02:19.957 * DB loaded from disk: 0.000 seconds
+938:M 25 Oct 21:02:19.958 # I have keys for unassigned slot 449. Taking responsibility for it.
+938:M 25 Oct 21:02:19.958 # I have keys for unassigned slot 4576. Taking responsibility for it.
+938:M 25 Oct 21:02:19.958 # I have keys for unassigned slot 5798. Taking responsibility for it.
+938:M 25 Oct 21:02:19.959 # I have keys for unassigned slot 7568. Taking responsibility for it.
+938:M 25 Oct 21:02:19.959 # I have keys for unassigned slot 8455. Taking responsibility for it.
+938:M 25 Oct 21:02:19.959 # I have keys for unassigned slot 12706. Taking responsibility for it.
+938:M 25 Oct 21:02:19.962 * Ready to accept connections
+938:M 25 Oct 21:04:52.316 # IP address for this node updated to 127.0.0.1
+938:M 25 Oct 21:04:53.265 # Configuration change detected. Reconfiguring myself as a replica of 09464fc07d00472bb667b0f9bb8083cca6f421c8
+938:S 25 Oct 21:04:53.266 * Before turning into a slave, using my master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+938:S 25 Oct 21:04:53.363 * Connecting to MASTER 127.0.0.1:6380
+938:S 25 Oct 21:04:53.365 * MASTER <-> SLAVE sync started
+938:S 25 Oct 21:04:53.365 * Non blocking connect for SYNC fired the event.
+938:S 25 Oct 21:04:53.367 * Master replied to PING, replication can continue...
+938:S 25 Oct 21:04:53.368 * Trying a partial resynchronization (request ef2dc4d1603747c2070d503aa2919050e89777f2:1).
+938:S 25 Oct 21:04:53.375 * Full resync from master: ca793413a515104fdb783e9fdfaf30227124ea95:140
+938:S 25 Oct 21:04:53.376 * Discarding previously cached master state.
+938:S 25 Oct 21:04:53.467 * MASTER <-> SLAVE sync: receiving 234 bytes from master
+938:S 25 Oct 21:04:53.479 * MASTER <-> SLAVE sync: Flushing old data
+938:S 25 Oct 21:04:53.480 * MASTER <-> SLAVE sync: Loading DB in memory
+938:S 25 Oct 21:04:53.481 * MASTER <-> SLAVE sync: Finished with success
+938:signal-handler (1603631715) Received SIGTERM scheduling shutdown...
+938:S 25 Oct 21:15:15.593 # User requested shutdown...
+938:S 25 Oct 21:15:15.593 * Saving the final RDB snapshot before exiting.
+938:S 25 Oct 21:15:15.616 * DB saved on disk
+938:S 25 Oct 21:15:15.616 * Removing the pid file.
+938:S 25 Oct 21:15:15.617 # Redis is now ready to exit, bye bye...

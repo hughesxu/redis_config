@@ -1,0 +1,113 @@
+826:C 25 Oct 20:43:08.090 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+826:C 25 Oct 20:43:08.095 # Redis version=4.0.9, bits=64, commit=00000000, modified=0, pid=826, just started
+826:C 25 Oct 20:43:08.096 # Configuration loaded
+827:M 25 Oct 20:43:08.099 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+827:M 25 Oct 20:43:08.105 # Server can't set maximum open files to 10032 because of OS error: Invalid argument.
+827:M 25 Oct 20:43:08.106 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+827:M 25 Oct 20:43:08.108 * No cluster configuration found, I'm 6c0193b65547323ad521ff377507536f8ffed9fc
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 4.0.9 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in cluster mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6481
+ |    `-._   `._    /     _.-'    |     PID: 827
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+827:M 25 Oct 20:43:08.112 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+827:M 25 Oct 20:43:08.112 # Server initialized
+827:M 25 Oct 20:43:08.113 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+827:M 25 Oct 20:43:08.113 * Ready to accept connections
+827:M 25 Oct 20:45:50.366 # IP address for this node updated to 127.0.0.1
+827:M 25 Oct 20:51:11.033 * Marking node 8d76926341fe930d8d288170056f179caa30d583 as failing (quorum reached).
+827:M 25 Oct 20:51:15.073 * Marking node 7858ebe514c1857e462f5a2dd0d1515e949649b5 as failing (quorum reached).
+827:M 25 Oct 20:54:11.310 * Clear FAIL state for node 8d76926341fe930d8d288170056f179caa30d583: slave is reachable again.
+827:signal-handler (1603630762) Received SIGTERM scheduling shutdown...
+827:M 25 Oct 20:59:22.630 # User requested shutdown...
+827:M 25 Oct 20:59:22.631 * Saving the final RDB snapshot before exiting.
+827:M 25 Oct 20:59:22.640 * DB saved on disk
+827:M 25 Oct 20:59:22.640 * Removing the pid file.
+827:M 25 Oct 20:59:22.641 # Redis is now ready to exit, bye bye...
+904:C 25 Oct 21:00:02.735 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+904:C 25 Oct 21:00:02.741 # Redis version=4.0.9, bits=64, commit=00000000, modified=0, pid=904, just started
+904:C 25 Oct 21:00:02.742 # Configuration loaded
+905:M 25 Oct 21:00:02.745 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+905:M 25 Oct 21:00:02.751 # Server can't set maximum open files to 10032 because of OS error: Invalid argument.
+905:M 25 Oct 21:00:02.752 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+905:M 25 Oct 21:00:02.754 * Node configuration loaded, I'm 6c0193b65547323ad521ff377507536f8ffed9fc
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 4.0.9 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in cluster mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6481
+ |    `-._   `._    /     _.-'    |     PID: 905
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+905:M 25 Oct 21:00:02.756 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+905:M 25 Oct 21:00:02.756 # Server initialized
+905:M 25 Oct 21:00:02.756 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+905:M 25 Oct 21:00:02.757 * DB loaded from disk: 0.000 seconds
+905:M 25 Oct 21:00:02.757 * Ready to accept connections
+905:M 25 Oct 21:00:02.760 * Clear FAIL state for node 7858ebe514c1857e462f5a2dd0d1515e949649b5: slave is reachable again.
+905:signal-handler (1603630858) Received SIGTERM scheduling shutdown...
+905:M 25 Oct 21:00:58.660 # User requested shutdown...
+905:M 25 Oct 21:00:58.661 * Saving the final RDB snapshot before exiting.
+905:M 25 Oct 21:00:58.674 * DB saved on disk
+905:M 25 Oct 21:00:58.674 * Removing the pid file.
+905:M 25 Oct 21:00:58.675 # Redis is now ready to exit, bye bye...
+947:C 25 Oct 21:02:34.364 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+947:C 25 Oct 21:02:34.369 # Redis version=4.0.9, bits=64, commit=00000000, modified=0, pid=947, just started
+947:C 25 Oct 21:02:34.370 # Configuration loaded
+948:M 25 Oct 21:02:34.374 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+948:M 25 Oct 21:02:34.381 # Server can't set maximum open files to 10032 because of OS error: Invalid argument.
+948:M 25 Oct 21:02:34.381 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+948:M 25 Oct 21:02:34.384 * No cluster configuration found, I'm cfc6aafa91c6e0af9d22cd167882a43fe8efa97c
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 4.0.9 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in cluster mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6481
+ |    `-._   `._    /     _.-'    |     PID: 948
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+948:M 25 Oct 21:02:34.389 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+948:M 25 Oct 21:02:34.389 # Server initialized
+948:M 25 Oct 21:02:34.390 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+948:M 25 Oct 21:02:34.390 * DB loaded from disk: 0.000 seconds
+948:M 25 Oct 21:02:34.390 * Ready to accept connections
+948:M 25 Oct 21:05:18.055 # IP address for this node updated to 127.0.0.1
+948:signal-handler (1603631715) Received SIGTERM scheduling shutdown...
+948:M 25 Oct 21:15:15.581 # User requested shutdown...
+948:M 25 Oct 21:15:15.581 * Saving the final RDB snapshot before exiting.
+948:M 25 Oct 21:15:15.595 * DB saved on disk
+948:M 25 Oct 21:15:15.596 * Removing the pid file.
+948:M 25 Oct 21:15:15.597 # Redis is now ready to exit, bye bye...
