@@ -1,0 +1,89 @@
+533:C 26 Oct 14:35:35.457 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+533:C 26 Oct 14:35:35.462 # Redis version=4.0.9, bits=64, commit=00000000, modified=0, pid=533, just started
+533:C 26 Oct 14:35:35.463 # Configuration loaded
+534:M 26 Oct 14:35:35.466 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+534:M 26 Oct 14:35:35.471 # Server can't set maximum open files to 10032 because of OS error: Invalid argument.
+534:M 26 Oct 14:35:35.471 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+534:M 26 Oct 14:35:35.475 * No cluster configuration found, I'm af81109fc29f69f9184ce9512c46df476fe693a3
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 4.0.9 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in cluster mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6382
+ |    `-._   `._    /     _.-'    |     PID: 534
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+534:M 26 Oct 14:35:35.479 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+534:M 26 Oct 14:35:35.480 # Server initialized
+534:M 26 Oct 14:35:35.480 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+534:M 26 Oct 14:35:35.480 * Ready to accept connections
+534:M 26 Oct 14:38:02.202 # IP address for this node updated to 127.0.0.1
+534:M 26 Oct 14:38:07.312 # Cluster state changed: ok
+534:M 26 Oct 14:43:52.377 * Slave 127.0.0.1:6482 asks for synchronization
+534:M 26 Oct 14:43:52.377 * Partial resynchronization not accepted: Replication ID mismatch (Slave asked for '3da623e6dbff349db45f62962f561ecf5cc40aed', my replication IDs are '823142a9e96b851fa16071ed23139ae0a0d5dd5c' and '0000000000000000000000000000000000000000')
+534:M 26 Oct 14:43:52.378 * Starting BGSAVE for SYNC with target: disk
+534:M 26 Oct 14:43:52.380 * Background saving started by pid 557
+557:C 26 Oct 14:43:52.393 * DB saved on disk
+534:M 26 Oct 14:43:52.432 * Background saving terminated with success
+534:M 26 Oct 14:43:52.433 * Synchronization with slave 127.0.0.1:6482 succeeded
+534:M 26 Oct 14:47:49.427 # New configEpoch set to 9
+534:M 26 Oct 14:47:49.428 # configEpoch updated after importing slot 10001
+534:M 26 Oct 14:58:53.077 * 1 changes in 900 seconds. Saving...
+534:M 26 Oct 14:58:53.082 * Background saving started by pid 565
+565:C 26 Oct 14:58:53.117 * DB saved on disk
+534:M 26 Oct 14:58:53.183 * Background saving terminated with success
+469:C 27 Oct 11:26:13.290 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+469:C 27 Oct 11:26:13.299 # Redis version=4.0.9, bits=64, commit=00000000, modified=0, pid=469, just started
+469:C 27 Oct 11:26:13.299 # Configuration loaded
+470:M 27 Oct 11:26:13.304 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+470:M 27 Oct 11:26:13.309 # Server can't set maximum open files to 10032 because of OS error: Invalid argument.
+470:M 27 Oct 11:26:13.310 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+470:M 27 Oct 11:26:13.312 * Node configuration loaded, I'm af81109fc29f69f9184ce9512c46df476fe693a3
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 4.0.9 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in cluster mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6382
+ |    `-._   `._    /     _.-'    |     PID: 470
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+470:M 27 Oct 11:26:13.314 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+470:M 27 Oct 11:26:13.314 # Server initialized
+470:M 27 Oct 11:26:13.315 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+470:M 27 Oct 11:26:13.315 * DB loaded from disk: 0.000 seconds
+470:M 27 Oct 11:26:13.316 * Ready to accept connections
+470:M 27 Oct 11:26:15.338 # Cluster state changed: ok
+470:M 27 Oct 11:26:27.529 * Slave 127.0.0.1:6482 asks for synchronization
+470:M 27 Oct 11:26:27.529 * Partial resynchronization not accepted: Replication ID mismatch (Slave asked for '3c295bef1039092cb008b2ee6c9a2d8ea94f3fc4', my replication IDs are 'd00d19495ed8239b46ea2c1ccaa77130eb284fe9' and '0000000000000000000000000000000000000000')
+470:M 27 Oct 11:26:27.530 * Starting BGSAVE for SYNC with target: disk
+470:M 27 Oct 11:26:27.531 * Background saving started by pid 497
+497:C 27 Oct 11:26:27.546 * DB saved on disk
+470:M 27 Oct 11:26:27.552 * Background saving terminated with success
+470:M 27 Oct 11:26:27.553 * Synchronization with slave 127.0.0.1:6482 succeeded
+470:M 27 Oct 12:38:20.662 * 1 changes in 900 seconds. Saving...
+470:M 27 Oct 12:38:20.666 * Background saving started by pid 535
+535:C 27 Oct 12:38:20.702 * DB saved on disk
+470:M 27 Oct 12:38:20.766 * Background saving terminated with success
+470:M 27 Oct 12:38:45.624 # Connection with slave 127.0.0.1:6482 lost.
+470:M 27 Oct 12:41:02.995 # Cluster state changed: fail
+470:M 27 Oct 13:38:46.084 * Replication backlog freed after 3600 seconds without connected slaves.

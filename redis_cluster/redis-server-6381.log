@@ -1,17 +1,17 @@
-1002:C 25 Oct 21:21:29.474 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
-1002:C 25 Oct 21:21:29.480 # Redis version=4.0.9, bits=64, commit=00000000, modified=0, pid=1002, just started
-1002:C 25 Oct 21:21:29.480 # Configuration loaded
-1003:M 25 Oct 21:21:29.483 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
-1003:M 25 Oct 21:21:29.488 # Server can't set maximum open files to 10032 because of OS error: Invalid argument.
-1003:M 25 Oct 21:21:29.490 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
-1003:M 25 Oct 21:21:29.492 * No cluster configuration found, I'm 1f1bdbfef1654817af4d1fd8812696d81411d726
+456:C 26 Oct 12:13:10.441 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+456:C 26 Oct 12:13:10.448 # Redis version=4.0.9, bits=64, commit=00000000, modified=0, pid=456, just started
+456:C 26 Oct 12:13:10.448 # Configuration loaded
+457:M 26 Oct 12:13:10.453 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+457:M 26 Oct 12:13:10.459 # Server can't set maximum open files to 10032 because of OS error: Invalid argument.
+457:M 26 Oct 12:13:10.460 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+457:M 26 Oct 12:13:10.462 * No cluster configuration found, I'm 51081a64ddb3ccf5432c435a8cf20d45ab795dd8
                 _._                                                  
            _.-``__ ''-._                                             
       _.-``    `.  `_.  ''-._           Redis 4.0.9 (00000000/0) 64 bit
   .-`` .-```.  ```\/    _.,_ ''-._                                   
  (    '      ,       .-`  | `,    )     Running in cluster mode
  |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6381
- |    `-._   `._    /     _.-'    |     PID: 1003
+ |    `-._   `._    /     _.-'    |     PID: 457
   `-._    `-._  `-./  _.-'    _.-'                                   
  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
  |    `-._`-._        _.-'_.-'    |           http://redis.io        
@@ -23,149 +23,63 @@
           `-._        _.-'                                           
               `-.__.-'                                               
 
-1003:M 25 Oct 21:21:29.497 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
-1003:M 25 Oct 21:21:29.497 # Server initialized
-1003:M 25 Oct 21:21:29.498 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
-1003:M 25 Oct 21:21:29.498 * Ready to accept connections
-1003:M 25 Oct 21:22:28.548 # IP address for this node updated to 127.0.0.1
-1003:M 25 Oct 21:34:33.130 # Cluster state changed: ok
-1003:M 25 Oct 21:37:46.122 * Slave 127.0.0.1:6481 asks for synchronization
-1003:M 25 Oct 21:37:46.123 * Partial resynchronization not accepted: Replication ID mismatch (Slave asked for 'b384a926510edbe43b061f092dea9ff2bfb9e69d', my replication IDs are '823e8d3848478cb83ca428e82371de202fadefeb' and '0000000000000000000000000000000000000000')
-1003:M 25 Oct 21:37:46.123 * Starting BGSAVE for SYNC with target: disk
-1003:M 25 Oct 21:37:46.125 * Background saving started by pid 1065
-1065:C 25 Oct 21:37:46.138 * DB saved on disk
-1003:M 25 Oct 21:37:46.221 * Background saving terminated with success
-1003:M 25 Oct 21:37:46.223 * Synchronization with slave 127.0.0.1:6481 succeeded
-1003:M 25 Oct 21:52:10.708 # Connection with slave 127.0.0.1:6481 lost.
-1003:M 25 Oct 21:52:10.716 * Slave 127.0.0.1:6481 asks for synchronization
-1003:M 25 Oct 21:52:10.717 * Partial resynchronization request from 127.0.0.1:6481 accepted. Sending 0 bytes of backlog starting from offset 1065.
-1003:M 25 Oct 21:54:30.966 # Connection with slave 127.0.0.1:6481 lost.
-1003:M 25 Oct 21:54:30.972 * Slave 127.0.0.1:6481 asks for synchronization
-1003:M 25 Oct 21:54:30.974 * Partial resynchronization request from 127.0.0.1:6481 accepted. Sending 0 bytes of backlog starting from offset 1121.
-1003:M 25 Oct 21:59:43.789 # Connection with slave 127.0.0.1:6481 lost.
-1003:M 25 Oct 21:59:43.796 * Slave 127.0.0.1:6481 asks for synchronization
-1003:M 25 Oct 21:59:43.797 * Partial resynchronization request from 127.0.0.1:6481 accepted. Sending 0 bytes of backlog starting from offset 1135.
-1003:M 25 Oct 22:34:43.918 # Disconnecting timedout slave: 127.0.0.1:6481
-1003:M 25 Oct 22:34:43.918 # Connection with slave 127.0.0.1:6481 lost.
-1003:M 25 Oct 22:34:44.639 * Slave 127.0.0.1:6481 asks for synchronization
-1003:M 25 Oct 22:34:44.640 * Partial resynchronization request from 127.0.0.1:6481 accepted. Sending 14 bytes of backlog starting from offset 1135.
-1003:M 25 Oct 22:41:23.405 # Disconnecting timedout slave: 127.0.0.1:6481
-1003:M 25 Oct 22:41:23.405 # Connection with slave 127.0.0.1:6481 lost.
-1003:M 25 Oct 22:41:24.213 * Slave 127.0.0.1:6481 asks for synchronization
-1003:M 25 Oct 22:41:24.214 * Partial resynchronization request from 127.0.0.1:6481 accepted. Sending 0 bytes of backlog starting from offset 1317.
-1003:M 25 Oct 22:55:01.388 # Connection with slave 127.0.0.1:6481 lost.
-1003:M 25 Oct 22:55:01.392 * Slave 127.0.0.1:6481 asks for synchronization
-1003:M 25 Oct 22:55:01.392 * Partial resynchronization request from 127.0.0.1:6481 accepted. Sending 0 bytes of backlog starting from offset 1331.
-1003:M 25 Oct 23:23:02.081 # Connection with slave 127.0.0.1:6481 lost.
-1003:M 25 Oct 23:23:02.084 * Slave 127.0.0.1:6481 asks for synchronization
-1003:M 25 Oct 23:23:02.084 * Partial resynchronization request from 127.0.0.1:6481 accepted. Sending 0 bytes of backlog starting from offset 1331.
-1003:M 25 Oct 23:34:57.293 # Connection with slave 127.0.0.1:6481 lost.
-1003:M 25 Oct 23:34:57.296 * Slave 127.0.0.1:6481 asks for synchronization
-1003:M 25 Oct 23:34:57.297 * Partial resynchronization request from 127.0.0.1:6481 accepted. Sending 0 bytes of backlog starting from offset 1345.
-1003:M 25 Oct 23:51:01.801 # Connection with slave 127.0.0.1:6481 lost.
-1003:M 25 Oct 23:51:01.803 * Slave 127.0.0.1:6481 asks for synchronization
-1003:M 25 Oct 23:51:01.803 * Partial resynchronization request from 127.0.0.1:6481 accepted. Sending 0 bytes of backlog starting from offset 1345.
-1003:M 26 Oct 00:19:01.603 # Connection with slave 127.0.0.1:6481 lost.
-1003:M 26 Oct 00:19:01.607 * Slave 127.0.0.1:6481 asks for synchronization
-1003:M 26 Oct 00:19:01.607 * Partial resynchronization request from 127.0.0.1:6481 accepted. Sending 0 bytes of backlog starting from offset 1345.
-1003:M 26 Oct 00:35:07.135 # Disconnecting timedout slave: 127.0.0.1:6481
-1003:M 26 Oct 00:35:07.136 # Connection with slave 127.0.0.1:6481 lost.
-1003:M 26 Oct 00:35:07.948 * Slave 127.0.0.1:6481 asks for synchronization
-1003:M 26 Oct 00:35:07.949 * Partial resynchronization request from 127.0.0.1:6481 accepted. Sending 0 bytes of backlog starting from offset 1345.
-1003:M 26 Oct 00:47:01.536 # Connection with slave 127.0.0.1:6481 lost.
-1003:M 26 Oct 00:47:01.540 * Slave 127.0.0.1:6481 asks for synchronization
-1003:M 26 Oct 00:47:01.541 * Partial resynchronization request from 127.0.0.1:6481 accepted. Sending 0 bytes of backlog starting from offset 1359.
-1003:M 26 Oct 01:15:02.001 # Connection with slave 127.0.0.1:6481 lost.
-1003:M 26 Oct 01:15:02.004 * Slave 127.0.0.1:6481 asks for synchronization
-1003:M 26 Oct 01:15:02.004 * Partial resynchronization request from 127.0.0.1:6481 accepted. Sending 0 bytes of backlog starting from offset 1359.
-1003:M 26 Oct 01:23:36.159 # Connection with slave 127.0.0.1:6481 lost.
-1003:M 26 Oct 01:23:36.164 * Slave 127.0.0.1:6481 asks for synchronization
-1003:M 26 Oct 01:23:36.165 * Partial resynchronization request from 127.0.0.1:6481 accepted. Sending 0 bytes of backlog starting from offset 1765.
-1003:M 26 Oct 01:35:17.471 # Connection with slave 127.0.0.1:6481 lost.
-1003:M 26 Oct 01:35:17.474 * Slave 127.0.0.1:6481 asks for synchronization
-1003:M 26 Oct 01:35:17.474 * Partial resynchronization request from 127.0.0.1:6481 accepted. Sending 0 bytes of backlog starting from offset 1779.
-1003:M 26 Oct 01:43:02.068 # Connection with slave 127.0.0.1:6481 lost.
-1003:M 26 Oct 01:43:02.070 * Slave 127.0.0.1:6481 asks for synchronization
-1003:M 26 Oct 01:43:02.070 * Partial resynchronization request from 127.0.0.1:6481 accepted. Sending 0 bytes of backlog starting from offset 2199.
-1003:M 26 Oct 02:11:02.027 # Connection with slave 127.0.0.1:6481 lost.
-1003:M 26 Oct 02:11:02.030 * Slave 127.0.0.1:6481 asks for synchronization
-1003:M 26 Oct 02:11:02.030 * Partial resynchronization request from 127.0.0.1:6481 accepted. Sending 0 bytes of backlog starting from offset 2199.
-1003:M 26 Oct 02:35:27.528 # Connection with slave 127.0.0.1:6481 lost.
-1003:M 26 Oct 02:35:27.532 * Slave 127.0.0.1:6481 asks for synchronization
-1003:M 26 Oct 02:35:27.532 * Partial resynchronization request from 127.0.0.1:6481 accepted. Sending 0 bytes of backlog starting from offset 2199.
-1003:M 26 Oct 02:39:02.320 # Connection with slave 127.0.0.1:6481 lost.
-1003:M 26 Oct 02:39:02.325 * Slave 127.0.0.1:6481 asks for synchronization
-1003:M 26 Oct 02:39:02.326 * Partial resynchronization request from 127.0.0.1:6481 accepted. Sending 0 bytes of backlog starting from offset 2213.
-1003:M 26 Oct 03:07:01.691 # Connection with slave 127.0.0.1:6481 lost.
-1003:M 26 Oct 03:07:01.696 * Slave 127.0.0.1:6481 asks for synchronization
-1003:M 26 Oct 03:07:01.697 * Partial resynchronization request from 127.0.0.1:6481 accepted. Sending 0 bytes of backlog starting from offset 2213.
-1003:M 26 Oct 03:35:01.938 # Disconnecting timedout slave: 127.0.0.1:6481
-1003:M 26 Oct 03:35:01.938 # Connection with slave 127.0.0.1:6481 lost.
-1003:M 26 Oct 03:35:02.647 * Slave 127.0.0.1:6481 asks for synchronization
-1003:M 26 Oct 03:35:02.648 * Partial resynchronization request from 127.0.0.1:6481 accepted. Sending 0 bytes of backlog starting from offset 2213.
-1003:M 26 Oct 04:03:01.845 # Connection with slave 127.0.0.1:6481 lost.
-1003:M 26 Oct 04:03:01.849 * Slave 127.0.0.1:6481 asks for synchronization
-1003:M 26 Oct 04:03:01.849 * Partial resynchronization request from 127.0.0.1:6481 accepted. Sending 0 bytes of backlog starting from offset 2227.
-1003:M 26 Oct 04:31:02.259 # Connection with slave 127.0.0.1:6481 lost.
-1003:M 26 Oct 04:31:02.269 * Slave 127.0.0.1:6481 asks for synchronization
-1003:M 26 Oct 04:31:02.271 * Partial resynchronization request from 127.0.0.1:6481 accepted. Sending 0 bytes of backlog starting from offset 2227.
-1003:M 26 Oct 04:35:48.266 # Connection with slave 127.0.0.1:6481 lost.
-1003:M 26 Oct 04:35:48.268 * Slave 127.0.0.1:6481 asks for synchronization
-1003:M 26 Oct 04:35:48.269 * Partial resynchronization request from 127.0.0.1:6481 accepted. Sending 0 bytes of backlog starting from offset 2227.
-1003:M 26 Oct 04:59:02.026 # Disconnecting timedout slave: 127.0.0.1:6481
-1003:M 26 Oct 04:59:02.026 # Connection with slave 127.0.0.1:6481 lost.
-1003:M 26 Oct 04:59:02.734 * Slave 127.0.0.1:6481 asks for synchronization
-1003:M 26 Oct 04:59:02.734 * Partial resynchronization request from 127.0.0.1:6481 accepted. Sending 0 bytes of backlog starting from offset 2241.
-1003:M 26 Oct 05:27:02.511 # Connection with slave 127.0.0.1:6481 lost.
-1003:M 26 Oct 05:27:02.514 * Slave 127.0.0.1:6481 asks for synchronization
-1003:M 26 Oct 05:27:02.515 * Partial resynchronization request from 127.0.0.1:6481 accepted. Sending 0 bytes of backlog starting from offset 2241.
-1003:M 26 Oct 05:35:58.279 # Disconnecting timedout slave: 127.0.0.1:6481
-1003:M 26 Oct 05:35:58.279 # Connection with slave 127.0.0.1:6481 lost.
-1003:M 26 Oct 05:35:58.988 * Slave 127.0.0.1:6481 asks for synchronization
-1003:M 26 Oct 05:35:58.989 * Partial resynchronization request from 127.0.0.1:6481 accepted. Sending 0 bytes of backlog starting from offset 2241.
-1003:M 26 Oct 05:55:02.535 # Connection with slave 127.0.0.1:6481 lost.
-1003:M 26 Oct 05:55:02.537 * Slave 127.0.0.1:6481 asks for synchronization
-1003:M 26 Oct 05:55:02.538 * Partial resynchronization request from 127.0.0.1:6481 accepted. Sending 0 bytes of backlog starting from offset 2241.
-1003:M 26 Oct 06:23:02.340 # Connection with slave 127.0.0.1:6481 lost.
-1003:M 26 Oct 06:23:02.342 * Slave 127.0.0.1:6481 asks for synchronization
-1003:M 26 Oct 06:23:02.343 * Partial resynchronization request from 127.0.0.1:6481 accepted. Sending 0 bytes of backlog starting from offset 2255.
-1003:M 26 Oct 06:36:08.011 # Connection with slave 127.0.0.1:6481 lost.
-1003:M 26 Oct 06:36:08.014 * Slave 127.0.0.1:6481 asks for synchronization
-1003:M 26 Oct 06:36:08.014 * Partial resynchronization request from 127.0.0.1:6481 accepted. Sending 0 bytes of backlog starting from offset 2269.
-1003:M 26 Oct 06:51:02.461 # Connection with slave 127.0.0.1:6481 lost.
-1003:M 26 Oct 06:51:02.467 * Slave 127.0.0.1:6481 asks for synchronization
-1003:M 26 Oct 06:51:02.467 * Partial resynchronization request from 127.0.0.1:6481 accepted. Sending 0 bytes of backlog starting from offset 2297.
-1003:M 26 Oct 07:19:02.320 # Connection with slave 127.0.0.1:6481 lost.
-1003:M 26 Oct 07:19:02.323 * Slave 127.0.0.1:6481 asks for synchronization
-1003:M 26 Oct 07:19:02.323 * Partial resynchronization request from 127.0.0.1:6481 accepted. Sending 0 bytes of backlog starting from offset 2297.
-1003:M 26 Oct 07:36:17.738 # Disconnecting timedout slave: 127.0.0.1:6481
-1003:M 26 Oct 07:36:17.738 # Connection with slave 127.0.0.1:6481 lost.
-1003:M 26 Oct 07:36:18.447 * Slave 127.0.0.1:6481 asks for synchronization
-1003:M 26 Oct 07:36:18.447 * Partial resynchronization request from 127.0.0.1:6481 accepted. Sending 0 bytes of backlog starting from offset 2297.
-1003:M 26 Oct 07:47:02.601 # Connection with slave 127.0.0.1:6481 lost.
-1003:M 26 Oct 07:47:02.605 * Slave 127.0.0.1:6481 asks for synchronization
-1003:M 26 Oct 07:47:02.605 * Partial resynchronization request from 127.0.0.1:6481 accepted. Sending 0 bytes of backlog starting from offset 2297.
-1003:M 26 Oct 08:15:02.305 # Disconnecting timedout slave: 127.0.0.1:6481
-1003:M 26 Oct 08:15:02.305 # Connection with slave 127.0.0.1:6481 lost.
-1003:M 26 Oct 08:15:03.014 * Slave 127.0.0.1:6481 asks for synchronization
-1003:M 26 Oct 08:15:03.014 * Partial resynchronization request from 127.0.0.1:6481 accepted. Sending 0 bytes of backlog starting from offset 2311.
-1003:M 26 Oct 08:36:27.838 # Disconnecting timedout slave: 127.0.0.1:6481
-1003:M 26 Oct 08:36:27.839 # Connection with slave 127.0.0.1:6481 lost.
-1003:M 26 Oct 08:36:28.547 * Slave 127.0.0.1:6481 asks for synchronization
-1003:M 26 Oct 08:36:28.547 * Partial resynchronization request from 127.0.0.1:6481 accepted. Sending 0 bytes of backlog starting from offset 2311.
-1003:M 26 Oct 08:38:12.177 # Connection with slave 127.0.0.1:6481 lost.
-1003:M 26 Oct 08:38:12.708 * Slave 127.0.0.1:6481 asks for synchronization
-1003:M 26 Oct 08:38:12.710 * Partial resynchronization request from 127.0.0.1:6481 accepted. Sending 0 bytes of backlog starting from offset 2311.
-1003:M 26 Oct 08:43:02.606 # Connection with slave 127.0.0.1:6481 lost.
-1003:M 26 Oct 08:43:02.613 * Slave 127.0.0.1:6481 asks for synchronization
-1003:M 26 Oct 08:43:02.614 * Partial resynchronization request from 127.0.0.1:6481 accepted. Sending 0 bytes of backlog starting from offset 2353.
-1003:M 26 Oct 08:48:45.748 # Disconnecting timedout slave: 127.0.0.1:6481
-1003:M 26 Oct 08:48:45.749 # Connection with slave 127.0.0.1:6481 lost.
-1003:M 26 Oct 08:48:46.269 * Slave 127.0.0.1:6481 asks for synchronization
-1003:M 26 Oct 08:48:46.270 * Partial resynchronization request from 127.0.0.1:6481 accepted. Sending 0 bytes of backlog starting from offset 2353.
-1003:M 26 Oct 09:32:09.958 # Connection with slave 127.0.0.1:6481 lost.
-1003:M 26 Oct 09:32:10.267 * Slave 127.0.0.1:6481 asks for synchronization
-1003:M 26 Oct 09:32:10.267 * Partial resynchronization request from 127.0.0.1:6481 accepted. Sending 0 bytes of backlog starting from offset 2381.
-1003:M 26 Oct 09:34:22.939 # Connection with slave 127.0.0.1:6481 lost.
-1003:M 26 Oct 09:34:22.941 * Slave 127.0.0.1:6481 asks for synchronization
-1003:M 26 Oct 09:34:22.941 * Partial resynchronization request from 127.0.0.1:6481 accepted. Sending 0 bytes of backlog starting from offset 2451.
+457:M 26 Oct 12:13:10.470 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+457:M 26 Oct 12:13:10.470 # Server initialized
+457:M 26 Oct 12:13:10.470 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+457:M 26 Oct 12:13:10.471 * Ready to accept connections
+457:M 26 Oct 12:14:06.132 # IP address for this node updated to 127.0.0.1
+457:M 26 Oct 12:16:56.789 # Cluster state changed: ok
+457:M 26 Oct 12:19:12.277 * Slave 127.0.0.1:6481 asks for synchronization
+457:M 26 Oct 12:19:12.277 * Partial resynchronization not accepted: Replication ID mismatch (Slave asked for '47bd167fc0e9f292a3b026e756937dd5a6540eff', my replication IDs are '424178419d917a04c7a0cc9dc464cf767b64e594' and '0000000000000000000000000000000000000000')
+457:M 26 Oct 12:19:12.278 * Starting BGSAVE for SYNC with target: disk
+457:M 26 Oct 12:19:12.280 * Background saving started by pid 485
+485:C 26 Oct 12:19:12.306 * DB saved on disk
+457:M 26 Oct 12:19:12.353 * Background saving terminated with success
+457:M 26 Oct 12:19:12.355 * Synchronization with slave 127.0.0.1:6481 succeeded
+457:M 26 Oct 12:34:13.097 * 1 changes in 900 seconds. Saving...
+457:M 26 Oct 12:34:13.100 * Background saving started by pid 492
+492:C 26 Oct 12:34:13.125 * DB saved on disk
+457:M 26 Oct 12:34:13.201 * Background saving terminated with success
+457:M 26 Oct 14:08:12.749 * FAIL message received from c47598b25205cc88abe2e5094d5bfd9ea202335f about 87b7dfacde34b3cf57d5f46ab44fd6fffb2e4f52
+457:M 26 Oct 14:08:12.750 # Cluster state changed: fail
+457:M 26 Oct 14:08:13.444 # Failover auth granted to 4c23b25bd4bcef7f4b77d8287e330ae72e738883 for epoch 6
+457:M 26 Oct 14:08:13.451 # Cluster state changed: ok
+457:M 26 Oct 14:15:47.824 * Clear FAIL state for node 87b7dfacde34b3cf57d5f46ab44fd6fffb2e4f52: master without slots is reachable again.
+464:C 27 Oct 11:26:10.336 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+464:C 27 Oct 11:26:10.343 # Redis version=4.0.9, bits=64, commit=00000000, modified=0, pid=464, just started
+464:C 27 Oct 11:26:10.343 # Configuration loaded
+465:M 27 Oct 11:26:10.347 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+465:M 27 Oct 11:26:10.351 # Server can't set maximum open files to 10032 because of OS error: Invalid argument.
+465:M 27 Oct 11:26:10.352 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+465:M 27 Oct 11:26:10.354 * Node configuration loaded, I'm 51081a64ddb3ccf5432c435a8cf20d45ab795dd8
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 4.0.9 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in cluster mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6381
+ |    `-._   `._    /     _.-'    |     PID: 465
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+465:M 27 Oct 11:26:10.356 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+465:M 27 Oct 11:26:10.356 # Server initialized
+465:M 27 Oct 11:26:10.356 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+465:M 27 Oct 11:26:10.357 * DB loaded from disk: 0.000 seconds
+465:M 27 Oct 11:26:10.357 * Ready to accept connections
+465:M 27 Oct 11:26:12.382 # Cluster state changed: ok
+465:M 27 Oct 11:26:25.002 * Slave 127.0.0.1:6481 asks for synchronization
+465:M 27 Oct 11:26:25.002 * Partial resynchronization not accepted: Replication ID mismatch (Slave asked for 'da1530de2d3295299a8e9eadea1b4de2a2a76973', my replication IDs are '3db4184ca11e8f706aec95f2f1e208e733a2a18d' and '0000000000000000000000000000000000000000')
+465:M 27 Oct 11:26:25.002 * Starting BGSAVE for SYNC with target: disk
+465:M 27 Oct 11:26:25.004 * Background saving started by pid 491
+491:C 27 Oct 11:26:25.024 * DB saved on disk
+465:M 27 Oct 11:26:25.119 * Background saving terminated with success
+465:M 27 Oct 11:26:25.120 * Synchronization with slave 127.0.0.1:6481 succeeded
